@@ -25,6 +25,7 @@ def cleared():
     canvas.delete('all')
 
 window = tk.Tk()
+window.title('chubdraw')
 canvas = tk.Canvas(window)
 canvas.pack()
 
